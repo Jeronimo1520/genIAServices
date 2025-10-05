@@ -12,8 +12,11 @@ asyncssh==2.21.0
 atpublic==6.0.1
 attrs==25.3.0
 Authlib==1.6.4
+backoff==2.2.1
 billiard==4.2.1
 blinker==1.9.0
+boto3==1.40.40
+botocore==1.40.40
 cachetools==5.5.2
 celery==5.5.3
 certifi==2025.8.3
@@ -30,7 +33,11 @@ contourpy==1.3.3
 cryptography==45.0.6
 cycler==0.12.1
 cyclopts==3.24.0
+dacite==1.6.0
+dagshub==0.6.3
+dagshub-annotation-converter==0.1.13
 databricks-sdk==0.65.0
+dataclasses-json==0.6.7
 dictdiffer==0.9.0
 diskcache==5.6.3
 distro==1.9.0
@@ -63,6 +70,7 @@ funcy==2.0
 gitdb==4.0.12
 GitPython==3.1.45
 google-auth==2.40.3
+gql==4.0.0
 grandalf==0.8
 graphene==3.4.3
 graphql-core==3.2.6
@@ -76,10 +84,12 @@ httpx-sse==0.4.1
 hydra-core==1.3.2
 idna==3.10
 importlib_metadata==8.7.0
+iniconfig==2.1.0
 isodate==0.7.2
 iterative-telemetry==0.0.10
 itsdangerous==2.2.0
 Jinja2==3.1.6
+jmespath==1.0.1
 joblib==1.5.2
 jsonschema==4.25.1
 jsonschema-path==0.3.4
@@ -87,9 +97,11 @@ jsonschema-specifications==2025.9.1
 kiwisolver==1.4.9
 kombu==5.5.4
 lazy-object-proxy==1.12.0
+lxml==6.0.2
 Mako==1.3.10
 markdown-it-py==3.0.0
 MarkupSafe==3.0.2
+marshmallow==3.26.1
 matplotlib==3.10.6
 mcp==1.14.1
 mdurl==0.1.2
@@ -99,6 +111,7 @@ mlflow-tracing==3.4.0
 more-itertools==10.8.0
 mpmath==1.3.0
 multidict==6.6.3
+mypy_extensions==1.1.0
 networkx==3.5
 numpy==2.3.3
 omegaconf==2.3.0
@@ -116,8 +129,10 @@ pandas==2.3.2
 parse==1.20.2
 pathable==0.4.4
 pathspec==0.12.1
+pathvalidate==3.3.1
 pillow==11.3.0
 platformdirs==4.3.8
+pluggy==1.6.0
 prompt_toolkit==3.0.51
 propcache==0.3.2
 protobuf==6.32.1
@@ -135,6 +150,7 @@ Pygments==2.19.2
 pygtrie==2.5.0
 pyparsing==3.2.3
 pyperclip==1.10.0
+pytest==8.4.2
 python-dateutil==2.9.0.post0
 python-dotenv==1.1.1
 python-multipart==0.0.20
@@ -143,6 +159,7 @@ pywin32==311
 PyYAML==6.0.2
 referencing==0.36.2
 requests==2.32.4
+requests-toolbelt==1.0.0
 rfc3339-validator==0.1.4
 rich==14.1.0
 rich-rst==1.3.1
@@ -150,6 +167,7 @@ rpds-py==0.27.1
 rsa==4.9.1
 ruamel.yaml==0.18.14
 ruamel.yaml.clib==0.2.12
+s3transfer==0.14.0
 scikit-learn==1.7.2
 scipy==1.16.2
 scmrepo==3.5.2
@@ -168,12 +186,15 @@ sse-starlette==3.0.2
 starlette==0.48.0
 sympy==1.14.0
 tabulate==0.9.0
+tenacity==9.1.2
 threadpoolctl==3.6.0
 tomlkit==0.13.3
 torch==2.8.0
 torchvision==0.23.0
 tqdm==4.67.1
+treelib==1.8.0
 typer==0.16.0
+typing-inspect==0.9.0
 typing-inspection==0.4.1
 typing_extensions==4.14.1
 tzdata==2025.2
